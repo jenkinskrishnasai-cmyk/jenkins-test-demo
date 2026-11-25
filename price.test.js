@@ -1,7 +1,7 @@
 const { addVat } = require('./price');
 
 test('adds 18% VAT', () => {
-  expect(addVat(100, 0.18)).toBe(120);
+  expect(addVat(100, 0.18)).toBe(118);
 });
 
 test('keeps zero at zero', () => {
